@@ -29,3 +29,6 @@ spec:
               value: "5000"
             - name: FRONTEND_ORIGIN
               value: "https://projectmanager.pixiemgt.com"
+          envFrom:
+            - secretRef:
+              name: backend-secrets

@@ -27,3 +27,5 @@ spec:
               value: "production"
             - name: PORT
               value: "5000"
+            - name: FRONTEND_ORIGIN
+              value: "https://projectmanager.pixiemgt.com"

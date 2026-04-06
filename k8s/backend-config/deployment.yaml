@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: ghcr.io/PixieMgt/projectmanagerbackend:latest
+          image: ghcr.io/pixiemgt/projectmanagerbackend:latest
           ports:
             - containerPort: 5000
           env:

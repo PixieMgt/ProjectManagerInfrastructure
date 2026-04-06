@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: ghcr.io/YOUR_GITHUB_USERNAME/projectmanagerfrontend:latest
+          image: ghcr.io/PixieMgt/projectmanagerfrontend:latest
           ports:
             - containerPort: 3000

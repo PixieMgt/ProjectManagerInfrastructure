@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: ghcr.io/YOUR_GITHUB_USERNAME/projectmanagerbackend:latest
+          image: ghcr.io/PixieMgt/projectmanagerbackend:latest
           ports:
             - containerPort: 5000
           env:

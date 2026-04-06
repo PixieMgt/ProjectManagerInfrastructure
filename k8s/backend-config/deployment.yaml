@@ -19,6 +19,7 @@ spec:
       containers:
         - name: backend
           image: ghcr.io/pixiemgt/projectmanagerbackend:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 5000
           env:

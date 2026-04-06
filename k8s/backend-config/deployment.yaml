@@ -31,4 +31,4 @@ spec:
               value: "https://projectmanager.pixiemgt.com"
           envFrom:
             - secretRef:
-              name: backend-secrets
+                name: backend-secrets

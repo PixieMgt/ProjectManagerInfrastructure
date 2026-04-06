@@ -6,7 +6,7 @@ metadata:
     traefik.ingress.kubernetes.io/router.entrypoints: web
 spec:
   rules:
-    - host: YOUR_DOMAIN_OR_IP
+    - host: projectmanager.pixiemgt.com
       http:
         paths:
           - path: /

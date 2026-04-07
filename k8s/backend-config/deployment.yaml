@@ -29,6 +29,12 @@ spec:
               value: "5000"
             - name: FRONTEND_ORIGIN
               value: "https://projectmanager.pixiemgt.com"
+            - DB_HOST:
+              value: "192.168.0.189"
+            - DB_PORT:
+              value: "1433"
+            - DB_NAME:
+              value: "ProjectManagerDev"
           envFrom:
             - secretRef:
                 name: backend-secrets
